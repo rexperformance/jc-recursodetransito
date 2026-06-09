@@ -6,14 +6,14 @@ Construção da presença digital do zero.
 
 ## Gargalo atual
 
-A empresa não tem nenhuma presença online — sem Google Meu Negócio, sem Instagram, sem site, sem logo em arquivo. Sem isso, não há entrada de clientes novos pelo digital.
+GMN e site criados, mas sem identidade visual definida (logo em arquivo) e sem presença no Instagram. Sem isso, o digital não gera entrada de clientes novos de forma consistente.
 
 ## Prioridade principal
 
-1. Criar e otimizar o Google Meu Negócio (GMN)
+1. ~~Criar e otimizar o Google Meu Negócio (GMN)~~ ✓ Concluído
 2. Criar e estruturar o perfil do Instagram
 3. Desenvolver identidade visual com arquivo de logo
-4. Criar site institucional simples
+4. ~~Criar site institucional simples~~ ✓ Concluído
 5. Iniciar produção de conteúdo regular no Instagram
 
 ## Pra tirar das costas

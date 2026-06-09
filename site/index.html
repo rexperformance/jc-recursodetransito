@@ -2,9 +2,9 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="JC Recursos de Multa de Trânsito — Defesa especializada em multas, suspensão e cassação de CNH em Rosário/MA. Análise gratuita. Fale pelo WhatsApp." />
-  <title>JC Recursos de Multa de Trânsito — Sua Solução em Trânsito</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <meta name="description" content="JC Recursos de Multa de Trânsito: Defesa especializada em multas, suspensão e cassação de CNH em Rosário/MA. Análise gratuita. Fale pelo WhatsApp." />
+  <title>JC Recursos de Multa de Trânsito | Sua Solução em Trânsito</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
@@ -20,10 +20,9 @@
   <!-- HEADER -->
   <header class="header">
     <div class="container header__inner">
-      <div class="logo">
-        <span class="logo__mark">JC</span>
-        <span class="logo__text">Recursos de Multa<br />de Trânsito</span>
-      </div>
+      <a href="#" class="logo" aria-label="JC Recursos de Multa de Trânsito">
+        <img src="imagens/logo.png" alt="JC Recursos de Multa de Trânsito" class="logo__img" />
+      </a>
       <nav class="nav">
         <a href="#servicos" class="nav__link">Serviços</a>
         <a href="#sobre" class="nav__link">Sobre</a>
@@ -39,7 +38,7 @@
     <div class="container hero__inner">
 
       <div class="hero__content">
-        <div class="pill hero-stagger hero-stagger--1">Rosário/MA e região — Atendimento pelo WhatsApp</div>
+        <div class="pill hero-stagger hero-stagger--1">Rosário/MA e região · Atendimento pelo WhatsApp</div>
         <h1 class="hero__title hero-stagger hero-stagger--2">
           Sua CNH está<br />em risco?<br />
           <span class="text-gold">Agente resolve.</span>
@@ -70,41 +69,27 @@
         </div>
       </div>
 
-      <!-- 3D card scene -->
-      <div class="hero__scene reveal reveal--delay">
-        <div class="hero__scene-perspective">
-          <div class="hero__card-stack">
-            <div class="hero__card-depth2"></div>
-            <div class="hero__card-depth1"></div>
-            <div class="hero__card3d">
-              <div class="hero__card3d-top">
-                <div class="hero__card3d-logo">JC</div>
-                <span class="hero__card3d-brand">Recursos de Multa de Trânsito</span>
-              </div>
-              <div class="hero__card3d-divider"></div>
-              <p class="hero__card3d-label">Especialista responsável</p>
-              <h3 class="hero__card3d-name">Joerberth Aguiar</h3>
-              <p class="hero__card3d-role">
-                Especialista em Segurança no Trânsito<br />
-                e Direito de Trânsito
-              </p>
-              <div class="hero__card3d-location">
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
-                Rosário, Maranhão
-              </div>
-              <div class="hero__card3d-glow" aria-hidden="true"></div>
-            </div>
-          </div>
+      <!-- Foto do especialista -->
+      <div class="hero__portrait reveal reveal--delay">
+        <div class="hero__portrait-accent" aria-hidden="true"></div>
 
-          <div class="hero__float hero__float--badge">
-            <svg width="16" height="16" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="4 10 8 14 16 6"/></svg>
-            Análise gratuita
-          </div>
+        <!--
+          Quando tiver a foto, substituir o bloco abaixo por:
+          <img src="images/joerberth.jpg" alt="Joerberth Aguiar" class="hero__portrait-img" />
+        -->
+        <div class="hero__portrait-img hero__portrait-placeholder">
+          <svg width="80" height="80" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width=".8"><path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z"/></svg>
+          <span>Substituir pela foto<br />do Joerberth Aguiar</span>
+        </div>
 
-          <div class="hero__float hero__float--stat">
-            <strong>DETRAN · JARI</strong>
-            <span>CETRAN · SENATRAN</span>
-          </div>
+        <div class="hero__portrait-badge">
+          <strong>Especialista em</strong>
+          Segurança e Direito de Trânsito
+        </div>
+
+        <div class="hero__portrait-stat">
+          <strong>DETRAN · JARI</strong>
+          <span>CETRAN · SENATRAN</span>
         </div>
       </div>
 
@@ -134,7 +119,7 @@
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
           </div>
           <h3>CNH com suspensão ameaçada</h3>
-          <p>Pontuação chegando no limite ou processo de suspensão aberto. Existe defesa — o prazo é o que não pode perder.</p>
+          <p>Pontuação chegando no limite ou processo de suspensão aberto. Existe defesa. O prazo é o que não pode perder.</p>
           <div class="card-glow" aria-hidden="true"></div>
         </div>
 
@@ -161,7 +146,7 @@
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 015.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
           </div>
           <h3>Não sabe por onde começar</h3>
-          <p>Recebeu uma notificação e não entende o que fazer. A maioria dos motoristas não conhece seus direitos — a gente explica.</p>
+          <p>Recebeu uma notificação e não entende o que fazer. A maioria dos motoristas não conhece seus direitos. A gente explica.</p>
           <div class="card-glow" aria-hidden="true"></div>
         </div>
 
@@ -170,7 +155,7 @@
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
           </div>
           <h3>Prazo acabando</h3>
-          <p>Recursos de trânsito têm prazo curto e improrrogável. Se perdeu, algumas alternativas ainda existem — mas o tempo conta.</p>
+          <p>Recursos de trânsito têm prazo curto e improrrogável. Se perdeu, algumas alternativas ainda existem, mas o tempo conta.</p>
           <div class="card-glow" aria-hidden="true"></div>
         </div>
 
@@ -184,7 +169,7 @@
       <div class="section__header reveal">
         <div class="pill">O que fazemos</div>
         <h2 class="section__title">Atuamos em toda a defesa de trânsito</h2>
-        <p class="section__subtitle">Do recurso da multa até a defesa em cassação — cada caso tem um caminho.</p>
+        <p class="section__subtitle">Do recurso da multa até a defesa em cassação. Cada caso tem um caminho.</p>
       </div>
       <div class="grid grid--2">
 
@@ -237,7 +222,7 @@
           <div class="servico-card__num" aria-hidden="true">06</div>
           <div class="servico-card__body">
             <h3>Consultoria de trânsito</h3>
-            <p>Análise completa do seu caso e orientação sobre os melhores caminhos. Feita antes de qualquer decisão — e antes de qualquer cobrança.</p>
+            <p>Análise completa do seu caso e orientação sobre os melhores caminhos. Feita antes de qualquer decisão, sem nenhuma cobrança.</p>
           </div>
           <div class="card-glow" aria-hidden="true"></div>
         </div>
@@ -271,7 +256,7 @@
           </div>
           <div class="step__body">
             <h3>A gente analisa o caso</h3>
-            <p>Verificamos o auto de infração, prazos e possibilidades reais de recurso. Explicamos tudo em linguagem clara — sem juridiquês.</p>
+            <p>Verificamos o auto de infração, prazos e possibilidades reais de recurso. Explicamos tudo em linguagem clara, sem juridiquês.</p>
           </div>
         </div>
         <div class="step step--last reveal">
@@ -297,11 +282,11 @@
     <div class="container sobre__grid">
       <div class="sobre__content reveal">
         <div class="pill">Quem cuida do seu caso</div>
-        <h2 class="sobre__title">Joerberth<br />Aguiar</h2>
+        <h2 class="sobre__title">Joerberth Aguiar</h2>
         <p class="sobre__role">Especialista em Segurança no Trânsito e Direito de Trânsito</p>
         <p class="sobre__text">
           Atua na defesa de motoristas e proprietários de veículos em Rosário/MA e região.
-          Conhecimento técnico e prático em todas as etapas do processo — da autuação ao recurso final.
+          Conhecimento técnico e prático em todas as etapas do processo, da autuação ao recurso final.
         </p>
         <p class="sobre__text">
           Quando você contrata a JC, seu caso fica com quem entende do assunto. Sem terceirização, sem enrolação.
@@ -337,10 +322,29 @@
         </div>
         <blockquote class="sobre__quote">
           "Muitas multas têm irregularidades que podem ser contestadas. O motorista só precisa saber que tem esse direito."
-          <cite>— Joerberth Aguiar</cite>
+          <cite>Joerberth Aguiar</cite>
         </blockquote>
       </div>
     </div>
+
+    <!-- Stats — preencher com os números reais do Joerberth -->
+    <div class="container sobre__stats reveal">
+      <div class="stat-item">
+        <strong class="stat-num">+XX</strong>
+        <span class="stat-label">Casos Analisados</span>
+      </div>
+      <div class="stat-divider" aria-hidden="true"></div>
+      <div class="stat-item">
+        <strong class="stat-num">+XX</strong>
+        <span class="stat-label">Recursos Abertos</span>
+      </div>
+      <div class="stat-divider" aria-hidden="true"></div>
+      <div class="stat-item">
+        <strong class="stat-num">XX</strong>
+        <span class="stat-label">Anos de Experiência</span>
+      </div>
+    </div>
+
   </section>
 
   <!-- POR QUE A JC -->
@@ -362,7 +366,7 @@
           <svg class="icon-check icon-check--lg" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="4 10 8 14 16 6"/></svg>
           <div>
             <strong>Especialista dedicado ao seu caso</strong>
-            <p>Seu processo fica com Joerberth Aguiar — sem terceirização ou assistentes intermediários.</p>
+            <p>Seu processo fica com Joerberth Aguiar. Sem terceirização ou assistentes intermediários.</p>
           </div>
         </div>
         <div class="diferencial-item reveal">
@@ -390,7 +394,7 @@
           <svg class="icon-check icon-check--lg" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="4 10 8 14 16 6"/></svg>
           <div>
             <strong>Atuação em todas as instâncias</strong>
-            <p>DETRAN, JARI, CETRAN, SENATRAN — sabemos onde e como protocolar em cada fase.</p>
+            <p>DETRAN, JARI, CETRAN, SENATRAN: sabemos onde e como protocolar em cada fase.</p>
           </div>
         </div>
       </div>
@@ -402,7 +406,7 @@
     <div class="container faq__grid">
       <div class="faq__left reveal">
         <div class="pill">Perguntas frequentes</div>
-        <h2 class="faq__title">Ainda<br />com dúvidas?</h2>
+        <h2 class="faq__title">Ainda com dúvidas?</h2>
         <a href="https://wa.me/5598988183618" target="_blank" rel="noopener" class="whatsapp-cta">
           <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
           <div>
@@ -419,7 +423,7 @@
             <svg class="faq__arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
           </button>
           <div class="faq__answer" role="region">
-            Nem toda multa tem chances de recurso, mas vale analisar. Muitas autuações têm irregularidades — sinalização inadequada, equipamento sem certificação, dados incorretos no auto de infração. Fazemos a análise antes de qualquer cobrança.
+            Nem toda multa tem chances de recurso, mas vale analisar. Muitas autuações têm irregularidades: sinalização inadequada, equipamento sem certificação, dados incorretos no auto de infração. Fazemos a análise antes de qualquer cobrança.
           </div>
         </div>
         <div class="faq__item">
@@ -437,7 +441,7 @@
             <svg class="faq__arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
           </button>
           <div class="faq__answer" role="region">
-            O prazo depende do órgão responsável e do tipo de infração. Em geral, entre 30 e 90 dias. Mantemos o cliente informado durante todo o processo — você não fica no escuro esperando.
+            O prazo depende do órgão responsável e do tipo de infração. Em geral, entre 30 e 90 dias. Mantemos o cliente informado durante todo o processo. Você não fica no escuro esperando.
           </div>
         </div>
         <div class="faq__item">
@@ -446,7 +450,7 @@
             <svg class="faq__arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
           </button>
           <div class="faq__answer" role="region">
-            Atendemos principalmente Rosário/MA e região. Para casos de outras cidades, consulte nossa disponibilidade pelo WhatsApp — em muitos casos conseguimos atender remotamente.
+            Atendemos principalmente Rosário/MA e região. Para casos de outras cidades, consulte nossa disponibilidade pelo WhatsApp. Em muitos casos conseguimos atender remotamente.
           </div>
         </div>
         <div class="faq__item">
@@ -468,6 +472,70 @@
           </div>
         </div>
       </div>
+    </div>
+  </section>
+
+  <!-- CONTATO -->
+  <section class="section section--dark" id="contato">
+    <div class="container contato__grid">
+
+      <div class="contato__info reveal">
+        <div class="pill pill--gold">Fale conosco</div>
+        <h2 class="contato__title">Como podemos<br /><span class="text-gold">ajudar na sua defesa?</span></h2>
+        <p class="contato__desc">Preencha o formulário e entraremos em contato pelo WhatsApp o mais rápido possível para entender sua situação.</p>
+        <div class="contato__dados">
+          <div class="contato__dado">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.67A2 2 0 012 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 14.92z"/></svg>
+            <span>(98) 98818-3618 / (98) 98280-7628</span>
+          </div>
+          <div class="contato__dado">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            <span>Rua 13 de Maio, 268, Rosário/MA</span>
+          </div>
+          <div class="contato__dado">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
+            <span>joerberth.aguiar@hotmail.com</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="contato__form-wrap reveal reveal--delay">
+        <form class="contato__form" id="contatoForm" novalidate>
+          <h3 class="form__title">Converse conosco</h3>
+          <p class="form__sub">Preencha abaixo e abrimos o WhatsApp com sua mensagem pronta.</p>
+          <div class="form__group">
+            <label for="f-nome">Nome completo <span aria-hidden="true">*</span></label>
+            <input type="text" id="f-nome" name="nome" placeholder="Ex: João da Silva" required />
+          </div>
+          <div class="form__row">
+            <div class="form__group">
+              <label for="f-tel">Telefone/WhatsApp <span aria-hidden="true">*</span></label>
+              <input type="tel" id="f-tel" name="telefone" placeholder="(98) 9XXXX-XXXX" required />
+            </div>
+            <div class="form__group">
+              <label for="f-assunto">Assunto <span aria-hidden="true">*</span></label>
+              <select id="f-assunto" name="assunto" required>
+                <option value="" disabled selected>Selecione</option>
+                <option>Recurso de multa</option>
+                <option>Suspensão da CNH</option>
+                <option>Cassação da CNH</option>
+                <option>Cancelamento da PPD</option>
+                <option>Excesso de pontuação</option>
+                <option>Consultoria</option>
+              </select>
+            </div>
+          </div>
+          <div class="form__group">
+            <label for="f-msg">Mensagem</label>
+            <textarea id="f-msg" name="mensagem" rows="4" placeholder="Descreva brevemente o seu caso..."></textarea>
+          </div>
+          <button type="submit" class="btn btn--primary btn--lg form__btn">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            Enviar pelo WhatsApp
+          </button>
+        </form>
+      </div>
+
     </div>
   </section>
 
@@ -493,14 +561,57 @@
 
   <!-- FOOTER -->
   <footer class="footer">
-    <div class="container footer__inner">
-      <div class="logo">
-        <span class="logo__mark">JC</span>
-        <span class="logo__text">Recursos de Multa<br />de Trânsito</span>
-      </div>
-      <div class="footer__right">
+    <div class="container footer__body">
+      <div class="footer__col footer__col--brand">
+        <a href="#" class="logo" aria-label="JC Recursos de Multa de Trânsito">
+          <img src="imagens/logo.png" alt="JC Recursos de Multa de Trânsito" class="logo__img" />
+        </a>
         <p class="footer__tagline">Sua Solução em Trânsito</p>
-        <p class="footer__copy">&copy; 2025 JC Recursos de Multa de Trânsito &middot; Rosário/MA</p>
+        <p class="footer__about">Defesa especializada em multas, suspensão e cassação de CNH em Rosário/MA.</p>
+      </div>
+
+      <div class="footer__col">
+        <h4 class="footer__col-title">Contato</h4>
+        <ul class="footer__list">
+          <li>
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.67A2 2 0 012 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 14.92z"/></svg>
+            (98) 98818-3618
+          </li>
+          <li>
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.67A2 2 0 012 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 14.92z"/></svg>
+            (98) 98280-7628
+          </li>
+          <li>
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            joerberth.aguiar@hotmail.com
+          </li>
+          <li>
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            Rua 13 de Maio, 268, Rosário/MA
+          </li>
+        </ul>
+      </div>
+
+      <div class="footer__col">
+        <h4 class="footer__col-title">Acompanhe</h4>
+        <div class="footer__social">
+          <a href="#" aria-label="Instagram" class="footer__social-btn">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+          </a>
+          <a href="https://wa.me/5598988183618" target="_blank" rel="noopener" aria-label="WhatsApp" class="footer__social-btn">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+          </a>
+        </div>
+        <p class="footer__horario">
+          <strong>Atendimento</strong><br />
+          Seg–Sex: 8h–18h<br />
+          Sábado: 8h–12h
+        </p>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <div class="container">
+        <p>&copy; 2025 JC Recursos de Multa de Trânsito &middot; Rosário/MA &middot; Todos os direitos reservados</p>
       </div>
     </div>
   </footer>
@@ -556,6 +667,21 @@
         card.style.transform = '';
         if (glow) glow.style.opacity = '0';
       });
+    });
+
+    /* ---- Formulário → WhatsApp ---- */
+    document.getElementById('contatoForm').addEventListener('submit', function(e) {
+      e.preventDefault();
+      const nome     = this.nome.value.trim();
+      const telefone = this.telefone.value.trim();
+      const assunto  = this.assunto.value;
+      const mensagem = this.mensagem.value.trim();
+      if (!nome || !telefone || !assunto) {
+        alert('Preencha nome, telefone e assunto.');
+        return;
+      }
+      const texto = `Olá! Meu nome é ${nome}.\n\nAssunto: ${assunto}\nTelefone: ${telefone}${mensagem ? '\n\n' + mensagem : ''}`;
+      window.open(`https://wa.me/5598988183618?text=${encodeURIComponent(texto)}`, '_blank');
     });
 
     /* ---- Scroll reveal ---- */

@@ -8,7 +8,7 @@
 **Dono:** Joerberth Aguiar — Especialista em Segurança no Trânsito e Direito de Trânsito
 **Atende clientes:** Motoristas e proprietários de veículos que cometeram infrações de trânsito e precisam defender seus direitos.
 **Equipe:** Solo (Joerberth Aguiar)
-**Ferramentas:** Sem presença digital ainda (GMN, Instagram, Site em construção)
+**Ferramentas:** GMN criado (perfil em `marketing/gmn/perfil-gmn.md`), Site institucional no ar (`site/`), Instagram ainda não criado
 **Principais entregas:**
 - Recursos de multas de trânsito
 - Defesa em suspensão do direito de dirigir
@@ -24,5 +24,12 @@
 
 ## Contexto adicional
 
-Empresa em fase de construção da presença digital. Ponto de partida: zero online.
+Empresa em fase de construção da presença digital. GMN e site institucional criados. Instagram e identidade visual ainda pendentes.
 Gerenciado por Joérica (prestadora de serviços de marketing).
+
+## Skills instaladas
+
+abrir, atualizar, salvar, instalar, carrossel, frontend-design,
+ui-ux-pro-max, seo, anuncio-google, relatorio-ads, analisar-dados,
+aprovar-post, email-profissional, responder-avaliacoes, mapear-rotinas,
+publicar-tema, novo-projeto
