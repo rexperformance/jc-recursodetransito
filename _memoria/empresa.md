@@ -24,7 +24,7 @@
 
 ## Contexto adicional
 
-Empresa em fase de construção da presença digital. GMN e site institucional criados. Instagram e identidade visual ainda pendentes.
+Empresa em fase de construção da presença digital. GMN, site institucional e logo criados. Falta só o Instagram.
 Gerenciado por Joérica (prestadora de serviços de marketing).
 
 ## Skills instaladas

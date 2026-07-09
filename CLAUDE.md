@@ -8,6 +8,7 @@ Tudo que o sistema gera — conteúdo, posts, propostas, materiais — parte daq
 - `identidade/` — marca aplicada em tudo que o sistema gera
 - `marketing/` — campanhas, conteúdo, mídia paga
 - `saidas/` — documentos e materiais pontuais gerados
+- `site/` — site institucional (no ar)
 - `dados/` — arquivos a analisar
 - `scripts/` — automações e scripts de apoio
 

@@ -50,8 +50,8 @@ Sério, premium e autoritativo. A combinação preto + dourado transmite credibi
 
 ## Logo
 
-- **Arquivo:** não disponível ainda — símbolo "JC" com a tagline "Sua Solução em Trânsito"
-- **Versão pra fundo escuro:** a ser desenvolvida
+- **Arquivo:** `identidade/JC Recursos de Multa de Trânsito - LOGO.png` — símbolo "JC" com a tagline "Sua Solução em Trânsito"
+- **Já aplicado em:** header e footer do site institucional (`site/imagens/logo.png`)
 - **Onde usar:** slide final do carrossel (CTA), header de propostas, slides de apresentação
 - **Tamanho sugerido:** largura entre 120–200px nos HTMLs
 

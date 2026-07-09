@@ -12,7 +12,7 @@ GMN e site criados, mas sem identidade visual definida (logo em arquivo) e sem p
 
 1. ~~Criar e otimizar o Google Meu Negócio (GMN)~~ ✓ Concluído
 2. Criar e estruturar o perfil do Instagram
-3. Desenvolver identidade visual com arquivo de logo
+3. ~~Desenvolver identidade visual com arquivo de logo~~ ✓ Concluído
 4. ~~Criar site institucional simples~~ ✓ Concluído
 5. Iniciar produção de conteúdo regular no Instagram
 
