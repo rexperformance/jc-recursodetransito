@@ -675,7 +675,7 @@ h1, h2, h3,
   .form__row            { grid-template-columns: 1fr; }
   .form__title          { font-size: 18px; }
 
-  .footer__inner  { flex-direction: column; align-items: flex-start; gap: 24px; padding: 28px 0; }
+  .footer__inner  { flex-direction: column; align-items: flex-start; gap: 24px; padding: 28px 20px; }
   .footer__contatos { flex-direction: column; align-items: flex-start; gap: 12px; }
 
   .whatsapp-float { bottom: 20px; right: 20px; width: 52px; height: 52px; }
