@@ -38,6 +38,7 @@ Evitar: exagero emocional, emojis em excesso, termos jurídicos sem explicação
 - Materiais visuais e propostas salvar em `saidas/`
 - Sempre consultar `identidade/design-guide.md` antes de criar qualquer visual
 - Sempre ler `_memoria/` antes de qualquer tarefa de comunicação
+- Todo site criado nesse workspace é hospedado na Vercel
 
 ## Ferramentas conectadas
 

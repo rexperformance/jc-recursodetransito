@@ -313,19 +313,14 @@ h1, h2, h3,
   background: linear-gradient(90deg, var(--bg) 0%, transparent 22%);
   z-index: 2;
 }
-.hero__photo-placeholder {
+.hero__photo-img {
   position: absolute;
   inset: 0;
-  background: var(--card);
-  border-left: 1px dashed var(--border-g);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 14px;
-  color: var(--muted);
-  font-size: 13px;
-  text-align: center;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center top;
+  display: block;
 }
 
 .hero__inner { position: relative; z-index: 2; }
@@ -392,14 +387,14 @@ h1, h2, h3,
   background: var(--card);
   border: 1px solid var(--border-g);
   border-radius: var(--radius-lg);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 12px;
-  color: var(--muted);
-  font-size: 13px;
-  text-align: center;
+  overflow: hidden;
+}
+.sobre__visual-main img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center top;
+  display: block;
 }
 
 .sobre__visual-inset {
