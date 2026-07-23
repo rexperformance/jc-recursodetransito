@@ -5,8 +5,8 @@
 **Tagline:** "Sua Solução em Trânsito"
 **O que faz:** Defesa e recursos de multas de trânsito, suspensão da CNH, cassação da CNH, cassação e cancelamento da PPD, excesso de pontuação na CNH, e outros problemas relacionados a infrações de trânsito.
 **Perfil:** Empresa operada por uma pessoa só
-**Dono:** Joerberth Aguiar — Especialista em Segurança no Trânsito e Direito de Trânsito
-**Atende clientes:** Motoristas e proprietários de veículos que cometeram infrações de trânsito e precisam defender seus direitos.
+**Dono:** Joerberth Aguiar — Especialista em Segurança no Trânsito e Direito de Trânsito, mais de 8 anos de mercado
+**Atende clientes:** Motoristas e proprietários de veículos que cometeram infrações de trânsito e precisam defender seus direitos, em todo o Brasil (não só Rosário/MA — esse é o escritório físico, não limite de atendimento)
 **Equipe:** Solo (Joerberth Aguiar)
 **Ferramentas:** GMN criado (perfil em `marketing/gmn/perfil-gmn.md`), Site institucional no ar (`site/`), Instagram ainda não criado
 **Principais entregas:**
@@ -18,7 +18,8 @@
 
 ## Contato
 
-- Telefones: (98) 98818-3618 / (98) 98280-7628
+- Telefone principal (WhatsApp): (98) 98280-7628
+- Telefone secundário: (98) 98818-3618
 - Email: joerberth.aguiar@hotmail.com
 - Endereço: Rua 13 de maio, 268 — Rosário/MA
 
