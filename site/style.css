@@ -667,6 +667,7 @@ h1, h2, h3,
   .stat-divider   { display: none; }
   .stat-num       { font-size: 24px; }
   .stat-label     { font-size: 11px; }
+  .sobre__content > .btn--primary.btn--lg { display: flex; width: fit-content; margin: 0 auto; }
 
   .contato__grid        { grid-template-columns: 1fr; gap: 32px; }
   .contato__title       { font-size: 26px; }
