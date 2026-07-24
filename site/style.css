@@ -310,7 +310,7 @@ h1, h2, h3,
   display: block;
 }
 
-.hero__inner { position: relative; z-index: 2; }
+.hero__inner { position: relative; z-index: 2; width: 100%; }
 
 .hero__content { max-width: 460px; }
 
