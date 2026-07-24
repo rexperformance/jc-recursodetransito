@@ -427,6 +427,8 @@ h1, h2, h3,
 .stat-item {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  text-align: center;
   gap: 4px;
 }
 
@@ -664,7 +666,6 @@ h1, h2, h3,
   .sobre__visual  { max-width: 320px; margin: 0 auto; }
   .sobre__title   { font-size: 24px; white-space: nowrap; }
   .sobre__stats   { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; }
-  .stat-item      { align-items: center; text-align: center; }
   .stat-divider   { display: none; }
   .stat-num       { font-size: 24px; }
   .stat-label     { font-size: 11px; }
